@@ -1,8 +1,6 @@
 import requests
 import ipdb
 
-ipdb.set_trace()
-
 response = requests.post(
   "http://localhost:3000/v1/user",
   data={
