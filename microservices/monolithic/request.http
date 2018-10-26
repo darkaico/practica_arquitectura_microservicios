@@ -1,0 +1,9 @@
+
+### Get User 1
+GET http://0.0.0.0:5000/v1/users/1
+
+### Get User 2
+GET http://0.0.0.0:5000/v1/users/2
+
+### Load Testing
+ab -n 500 -c 10 http://0.0.0.0:5000/v1/users/1

@@ -6,7 +6,7 @@ from flask import (
 app = Flask(__name__)
 
 
-@app.route("/version_one/username/<user_id>", methods=['GET'])
+@app.route("/v2/username/<int:user_id>", methods=['GET'])
 def get_username(user_id):
     return 'ariel' if user_id == 1 else 'pepe'
 

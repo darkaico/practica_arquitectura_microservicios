@@ -6,7 +6,7 @@ from flask import (
 app = Flask(__name__)
 
 
-@app.route("/version_one/twitter/<user_id>", methods=['GET'])
+@app.route("/v2/twitter/<int:user_id>", methods=['GET'])
 def get_twitter(user_id):
     time.sleep(0.5)
     return '@darkaico' if user_id == 1 else '@pepeargento'

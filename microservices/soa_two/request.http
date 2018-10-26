@@ -1,0 +1,7 @@
+### Start processing
+GET http://0.0.0.0:7000/v3/users/99
+
+### Get Async
+GET http://0.0.0.0:7000/v3/async/users/77/data
+
+ab -n 500 -c 10 http://0.0.0.0:7000/v3/users/77
