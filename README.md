@@ -1,7 +1,7 @@
 # Ejemplos y slides clase de Python
 ## Arquitectura de Microservicios
 
-# Version de Python: 3.6.5
+# Version de Python: 3.7.4
 
 - Estamos usando Jupyter Notebook para mostrar via web los ejercicios
 Mas info en: https://github.com/jupyter/notebook
